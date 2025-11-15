@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-const myElement = <div>I Love JSX!<div>hahah!!</div></div>;
+const myElement = <div style={{background : "red"}}>I Love JSX!<div>hahah!!</div></div>;
 const myElement1 = React.createElement('h1', {}, 'I do not use JSX!');
 const myElement2 = <div><h1>React is {5 + 5} times better with JSX</h1></div>;
 
